@@ -12,16 +12,16 @@ class Page extends BaseController
     }
     public function about()
     {
-        echo "about page";
+        echo view('about');
     }
 
     public function contact()
     {
-        echo "contact page";
+        echo view('contact');
     }
 
     public function faqs()
     {
-        echo "Faqs page";
+        echo view('faqs');
     }
 }
